@@ -1,0 +1,34 @@
+﻿<Properties StartupConfiguration="{14EDEF7E-7D4B-4992-AFF7-A109E05B134F}|Default">
+  <MonoDevelop.Ide.ItemProperties.Bookstore PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Pages/PurchaseConfirmed.cshtml">
+    <Files>
+      <File FileName="Migrations/20220303162758_AddPurchaseTable.cs" Line="26" Column="22" />
+      <File FileName="Views/Purchase/Checkout.cshtml" Line="1" Column="1" />
+      <File FileName="Controllers/PurchaseController.cs" Line="22" Column="24" />
+      <File FileName="Pages/PurchaseConfirmed.cshtml" Line="7" Column="22" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Bookstore" expanded="True">
+            <Node name="Bookstore" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Pages" expanded="True">
+                <Node name="PurchaseConfirmed.cshtml" selected="True" />
+              </Node>
+              <Node name="Views" expanded="True">
+                <Node name="Purchase" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

@@ -1,0 +1,57 @@
+﻿@page
+@model Bookstore.Pages.BuyModel
+@{
+}
+
+
+<h1>Your basket</h1>
+
+
+<table class="table table-bordered table-striped">
+    <thead class="thead-dark">
+        <tr>
+            <th>Book</th>
+            <th>Quantity</th>
+            <th>Cost</th>
+            <th>Subtotal</th>
+
+        </tr>
+    </thead>
+
+    <tbody>
+        @*subtotals per line*@
+        @foreach (var i in Model.basket.Items)       // this will go and grab from the Donate model
+        {
+        <tr>
+            <td>@i.Book.Title</td>
+            <td>@i.Quantity</td>
+            <td>25</td>
+            <td>@((i.Quantity * 25).ToString("c"))</td>
+
+            @*//this is deleting a specfic item*@
+            <td class="text-center">
+                <form method="post" asp-page-handler="Remove">
+                    <input name="BookId" value="@i.Book.BookId" type="hidden" />
+                    <input type="hidden" name="returnUrl" value="@Model.ReturnUrl" />
+                    <button type="submit" class="btn btn-sm btn-danger">Remove</button>
+                </form>
+            </td>
+
+        </tr>
+        }
+    </tbody>
+
+    <tfoot>
+        <tr>
+            <td colspan="3">Total:</td>
+            <td>@Model.basket.CalculateTotal().ToString("c")</td>
+        </tr>
+    </tfoot>
+</table>
+
+
+<div>
+    <a class="btn btn-primary" href="@Model.ReturnUrl">Continue Shopping</a>
+    <a class="btn btn-primary" style="float:right" asp-controller="Purchase" asp-action="Checkout">Checkout</a>
+
+</div>

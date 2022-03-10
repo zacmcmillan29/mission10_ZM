@@ -1,0 +1,32 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Models/PurchaseRepositoryInfo/EFPurchaseRepository.cs">
+    <Files>
+      <File FileName="Models/PurchaseRepositoryInfo/IPurchaseRepository.cs" Line="14" Column="1" />
+      <File FileName="Models/Purchase.cs" />
+      <File FileName="Startup.cs" Line="55" Column="1" />
+      <File FileName="Views/Purchase/Checkout.cshtml" />
+      <File FileName="Controllers/PurchaseController.cs" Line="22" Column="24" />
+      <File FileName="Pages/PurchaseConfirmed.cshtml" />
+      <File FileName="Pages/PurchaseConfirmed.cshtml.cs" />
+      <File FileName="appsettings.Development.json" Line="1" Column="1" />
+      <File FileName="appsettings.json" />
+      <File FileName="Models/PurchaseRepositoryInfo/EFPurchaseRepository.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Bookstore 2" expanded="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <DisabledProjects>
+    <String>Bookstore.csproj</String>
+  </DisabledProjects>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
