@@ -24,6 +24,7 @@
     <None Remove="Views\Shared\Components\Types\" />
     <None Remove="Pages\" />
     <None Remove="Views\Purchase\" />
+    <None Remove="Pages\Admin\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Models\" />
@@ -40,6 +41,7 @@
     <Folder Include="Views\Shared\Components\Types\" />
     <Folder Include="Pages\" />
     <Folder Include="Views\Purchase\" />
+    <Folder Include="Pages\Admin\" />
   </ItemGroup>
   <ItemGroup>
     <Content Remove="wwwroot\" />
