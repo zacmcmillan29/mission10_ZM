@@ -58,7 +58,7 @@ namespace Bookstore
 
             services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 
-
+            services.AddServerSideBlazor();
 
         }
 
@@ -101,6 +101,8 @@ namespace Bookstore
 
                 endpoints.MapRazorPages();
 
+                endpoints.MapBlazorHub();
+                endpoints.MapFallbackToPage("/admin/{*catchall}", "/Admin/Index");
 
             });
         }
