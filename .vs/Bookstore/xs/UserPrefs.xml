@@ -1,18 +1,24 @@
 ﻿<Properties StartupConfiguration="{5446E8F9-8CC4-490A-BEFD-9700712A96F9}|Default">
   <MonoDevelop.Ide.ItemProperties.Bookstore PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Bookstore/Startup.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Bookstore/Pages/Admin/Index.cshtml">
     <Files>
       <File FileName="Bookstore/Properties/launchSettings.json" Line="1" Column="1" />
       <File FileName="Bookstore/Pages/Admin/Books.razor" Line="7" Column="1" />
       <File FileName="Bookstore/Pages/Admin/Purchases.razor" Line="2" Column="1" />
-      <File FileName="Bookstore/Startup.cs" Line="61" Column="22" />
+      <File FileName="Bookstore/Startup.cs" Line="106" Column="1" />
+      <File FileName="Bookstore/Pages/Admin/Index.cshtml" Line="1" Column="1" />
+      <File FileName="Bookstore/Pages/Admin/Index.cshtml.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Bookstore" expanded="True">
             <Node name="Bookstore" expanded="True">
-              <Node name="Startup.cs" selected="True" />
+              <Node name="Pages" expanded="True">
+                <Node name="Admin" expanded="True">
+                  <Node name="Index.cshtml" expanded="True" selected="True" />
+                </Node>
+              </Node>
             </Node>
           </Node>
         </State>
