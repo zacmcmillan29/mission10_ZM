@@ -19,6 +19,7 @@
 
 </table>
 
+<NavLink class="btn btn-warning" href="@EditUrl">Edit</NavLink>
 
 
 <NavLink class="btn btn-secondary" href="/admin/books"
@@ -38,5 +39,8 @@
     {
         b = repo.Books.FirstOrDefault(x => x.BookId == Id);
     }
+
+    public string EditUrl => $"/admin/books/edit/{b.BookId}";
+
 
 }

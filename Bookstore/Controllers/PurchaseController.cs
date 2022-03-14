@@ -4,7 +4,6 @@ using System.Linq;
 using System.Threading.Tasks;
 using Bookstore.Models;
 using Microsoft.AspNetCore.Mvc;
-using Bookstore.Models;
 
 // For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 

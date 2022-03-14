@@ -62,7 +62,7 @@ using Bookstore.Models;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 27 "/Users/zacmcmillan/Library/Mobile Documents/com~apple~CloudDocs/IS junior core/WINTER 2022/IS 413/Mission Assignments/Mission_10/mission10_ZM/Bookstore/Pages/Admin/BookDetails.razor"
+#line 28 "/Users/zacmcmillan/Library/Mobile Documents/com~apple~CloudDocs/IS junior core/WINTER 2022/IS 413/Mission Assignments/Mission_10/mission10_ZM/Bookstore/Pages/Admin/BookDetails.razor"
        
 
     [Inject]
@@ -77,6 +77,9 @@ using Bookstore.Models;
     {
         b = repo.Books.FirstOrDefault(x => x.BookId == Id);
     }
+
+    public string EditUrl => $"/admin/books/edit/{b.BookId}";
+
 
 
 #line default
