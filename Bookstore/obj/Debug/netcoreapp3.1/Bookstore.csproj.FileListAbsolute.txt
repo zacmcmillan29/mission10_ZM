@@ -346,3 +346,4 @@
 /Users/zacmcmillan/Library/Mobile Documents/com~apple~CloudDocs/IS junior core/WINTER 2022/IS 413/Mission Assignments/Mission_10/mission10_ZM/Bookstore/obj/Debug/netcoreapp3.1/Razor/Pages/Admin/BookDetails.razor.g.cs
 /Users/zacmcmillan/Library/Mobile Documents/com~apple~CloudDocs/IS junior core/WINTER 2022/IS 413/Mission Assignments/Mission_10/mission10_ZM/Bookstore/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/Admin/Edit_Create_Book.razor.g.cs
 /Users/zacmcmillan/Library/Mobile Documents/com~apple~CloudDocs/IS junior core/WINTER 2022/IS 413/Mission Assignments/Mission_10/mission10_ZM/Bookstore/obj/Debug/netcoreapp3.1/Razor/Pages/Admin/Edit_Create_Book.razor.g.cs
+/Users/zacmcmillan/Library/Mobile Documents/com~apple~CloudDocs/IS junior core/WINTER 2022/IS 413/Mission Assignments/Mission_10/mission10_ZM/Bookstore/obj/Debug/netcoreapp3.1/Bookstore.csproj.AssemblyReference.cache

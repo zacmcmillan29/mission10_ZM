@@ -1,24 +1,26 @@
 ﻿<Properties StartupConfiguration="{5446E8F9-8CC4-490A-BEFD-9700712A96F9}|Default">
   <MonoDevelop.Ide.ItemProperties.Bookstore PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Bookstore/Controllers/PurchaseController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Bookstore/Models/Purchase.cs">
     <Files>
       <File FileName="Bookstore/Pages/Admin/Edit_Create_Book.razor" Line="72" Column="62" />
-      <File FileName="Bookstore/Models/Book.cs" Line="1" Column="1" />
-      <File FileName="Bookstore/Models/EFBookstoreRepository.cs" Line="33" Column="1" />
+      <File FileName="Bookstore/Models/Book.cs" Line="26" Column="1" />
+      <File FileName="Bookstore/Models/EFBookstoreRepository.cs" Line="30" Column="26" />
       <File FileName="Bookstore/Pages/Admin/PurchasesTable.razor" Line="1" Column="1" />
       <File FileName="Bookstore/Pages/Admin/BookDetails.razor" Line="23" Column="1" />
       <File FileName="Bookstore/Pages/Admin/AdminLayout.razor" Line="1" Column="1" />
       <File FileName="Bookstore/Controllers/PurchaseController.cs" Line="7" Column="1" />
+      <File FileName="Bookstore/Pages/Admin/Books.razor" Line="1" Column="1" />
+      <File FileName="Bookstore/Models/Purchase.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Bookstore" expanded="True">
             <Node name="Bookstore" expanded="True">
-              <Node name="Controllers" expanded="True">
-                <Node name="PurchaseController.cs" selected="True" />
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True">
+                <Node name="Purchase.cs" selected="True" />
               </Node>
-              <Node name="Models" expanded="True" />
               <Node name="Pages" expanded="True">
                 <Node name="Admin" expanded="True" />
               </Node>
