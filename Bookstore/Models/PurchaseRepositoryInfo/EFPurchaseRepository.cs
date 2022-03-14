@@ -3,7 +3,7 @@ using System.Linq;
 using Bookstore.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace WaterProject.Models
+namespace Bookstore.Models
 {
     public class EFPurchaseRepository : IPurchaseRepository
     {

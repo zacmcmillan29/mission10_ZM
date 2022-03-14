@@ -2,7 +2,7 @@
 using System.Linq;
 using Bookstore.Models;
 
-namespace WaterProject.Models
+namespace Bookstore.Models
 {
     public interface IPurchaseRepository
     {

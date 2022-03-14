@@ -25,6 +25,7 @@
     <None Remove="Pages\" />
     <None Remove="Views\Purchase\" />
     <None Remove="Pages\Admin\" />
+    <None Remove="Models\PurchaseRepositoryInfo\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Models\" />
@@ -42,6 +43,7 @@
     <Folder Include="Pages\" />
     <Folder Include="Views\Purchase\" />
     <Folder Include="Pages\Admin\" />
+    <Folder Include="Models\PurchaseRepositoryInfo\" />
   </ItemGroup>
   <ItemGroup>
     <Content Remove="wwwroot\" />
