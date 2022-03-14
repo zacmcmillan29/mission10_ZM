@@ -342,3 +342,5 @@
 /Users/zacmcmillan/Library/Mobile Documents/com~apple~CloudDocs/IS junior core/WINTER 2022/IS 413/Mission Assignments/Mission_10/mission10_ZM/Bookstore/obj/Debug/netcoreapp3.1/Bookstore.genruntimeconfig.cache
 /Users/zacmcmillan/Library/Mobile Documents/com~apple~CloudDocs/IS junior core/WINTER 2022/IS 413/Mission Assignments/Mission_10/mission10_ZM/Bookstore/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/Admin/PurchasesTable.razor.g.cs
 /Users/zacmcmillan/Library/Mobile Documents/com~apple~CloudDocs/IS junior core/WINTER 2022/IS 413/Mission Assignments/Mission_10/mission10_ZM/Bookstore/obj/Debug/netcoreapp3.1/Razor/Pages/Admin/PurchasesTable.razor.g.cs
+/Users/zacmcmillan/Library/Mobile Documents/com~apple~CloudDocs/IS junior core/WINTER 2022/IS 413/Mission Assignments/Mission_10/mission10_ZM/Bookstore/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/Admin/BookDetails.razor.g.cs
+/Users/zacmcmillan/Library/Mobile Documents/com~apple~CloudDocs/IS junior core/WINTER 2022/IS 413/Mission Assignments/Mission_10/mission10_ZM/Bookstore/obj/Debug/netcoreapp3.1/Razor/Pages/Admin/BookDetails.razor.g.cs
