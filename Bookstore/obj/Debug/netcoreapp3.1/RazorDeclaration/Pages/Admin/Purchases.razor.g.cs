@@ -68,7 +68,7 @@ using Bookstore.Models;
     public IPurchaseRepository repo => Service;
 
     public IEnumerable<Purchase> AllPurchases { get; set; }
-    public IEnumerable<Purchase> UncollectedPurchases { get; set; }
+    public IEnumerable<Purchase> UnshippedPurchases { get; set; }
     public IEnumerable<Purchase> CollectedPurchases { get; set; }
 
     protected async override Task OnInitializedAsync()
@@ -79,11 +79,11 @@ using Bookstore.Models;
     public async Task UpdateData()
     {
         AllPurchases = await repo.Purchases.ToListAsync();
-        UncollectedPurchases = AllPurchases.Where(x => !x.PurchaseReceived);
+        UnshippedPurchases = AllPurchases.Where(x => !x.PurchaseReceived);
         CollectedPurchases = AllPurchases.Where(x => x.PurchaseReceived);
     }
 
-    public void CollectPurchase(int id) => UpdatePurchase(id, true);
+    public void ShipPurchase(int id) => UpdatePurchase(id, true);
     public void ResetPurchase(int id) => UpdatePurchase(id, false);
 
     private void UpdatePurchase (int id, bool purchased)
