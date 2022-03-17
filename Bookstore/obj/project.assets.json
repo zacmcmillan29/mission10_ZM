@@ -1533,7 +1533,7 @@
       "outputPath": "/Users/zacmcmillan/Library/Mobile Documents/com~apple~CloudDocs/IS junior core/WINTER 2022/IS 413/Mission Assignments/Mission_10/mission10_ZM/Bookstore/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/zacmcmillan/.nuget/NuGet/NuGet.Config"
+        "/Users/zacmcmillan/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"

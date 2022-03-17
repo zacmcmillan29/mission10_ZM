@@ -1,32 +1,24 @@
 ﻿<Properties StartupConfiguration="{5446E8F9-8CC4-490A-BEFD-9700712A96F9}|Default">
   <MonoDevelop.Ide.ItemProperties.Bookstore PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Bookstore/appsettings.json">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Bookstore/Pages/Admin/Books.razor">
     <Files>
       <File FileName="Bookstore/Pages/Admin/Edit_Create_Book.razor" Line="1" Column="1" />
-      <File FileName="Bookstore/Pages/Admin/Purchases.razor" Line="6" Column="1" />
-      <File FileName="Bookstore/Pages/Admin/PurchasesTable.razor" Line="1" Column="1" />
-      <File FileName="Bookstore/Models/PurchaseRepositoryInfo/EFPurchaseRepository.cs" Line="36" Column="1" />
-      <File FileName="Bookstore/appsettings.json" Line="1" Column="1" />
+      <File FileName="Bookstore/Pages/Admin/Purchases.razor" />
+      <File FileName="Bookstore/Pages/Admin/PurchasesTable.razor" />
+      <File FileName="Bookstore/Models/PurchaseRepositoryInfo/EFPurchaseRepository.cs" />
+      <File FileName="Bookstore/appsettings.json" Line="11" Column="62" />
+      <File FileName="Bookstore/Pages/Admin/Books.razor" Line="51" Column="56" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Bookstore" expanded="True">
             <Node name="Bookstore" expanded="True">
-              <Node name="Models" expanded="True">
-                <Node name="PurchaseRepositoryInfo" expanded="True" />
-              </Node>
               <Node name="Pages" expanded="True">
-                <Node name="Admin" expanded="True" />
-              </Node>
-              <Node name="wwwroot" expanded="True">
-                <Node name="css" expanded="True">
-                  <Node name="bootstrap.css" expanded="True">
-                    <Node name="bootstrap.min.css" expanded="True" />
-                  </Node>
+                <Node name="Admin" expanded="True">
+                  <Node name="Books.razor" selected="True" />
                 </Node>
               </Node>
-              <Node name="appsettings.json" selected="True" />
             </Node>
           </Node>
         </State>
